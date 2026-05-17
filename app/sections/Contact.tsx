@@ -128,7 +128,7 @@ export default function Contact() {
                     "El-Sayed Helmy",
                     "Khaled Abukhalifa",
                     "Raneem Eissa",
-                    "Rowan El-Khatib",
+                    "Rawan El-Khatib",
                     "Shahd Lotfy",
                   ].map((name, i) => (
                     <span key={i} className="text-sm text-muted">

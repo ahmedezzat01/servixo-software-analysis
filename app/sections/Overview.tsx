@@ -50,7 +50,7 @@ const metadata = [
   { label: "Presentation", value: "Ahmed Ezzat", icon: Presentation },
   {
     label: "Team",
-    value: "Ahmed Ezzat, El-Sayed Helmy, Khaled Abukhalifa, Raneem Eissa, Rowan El-Khatib, Shahd Lotfy",
+    value: "Ahmed Ezzat, El-Sayed Helmy, Khaled Abukhalifa, Raneem Eissa, Rawan El-Khatib, Shahd Lotfy",
     icon: Users,
   },
   { label: "Year", value: "2025-2026", icon: Calendar },

@@ -25,7 +25,7 @@ A premium, immersive 3D web presentation for the **Servixo Service Marketplace S
   - El-Sayed Helmy (Team Lead)
   - Khaled Abukhalifa (Developer)
   - Raneem Eissa (Analyst)
-  - Rowan El-Khatib (Designer)
+  - Rawan El-Khatib (Designer)
   - Shahd Lotfy (Tester)
 - **Year**: 2025-2026
 

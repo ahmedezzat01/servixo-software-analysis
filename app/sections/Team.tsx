@@ -54,13 +54,15 @@ const teamMembers = [
     },
   },
   {
-    name: "Rowan El-Khatib",
+    name: "Rawan El-Khatib",
     role: "Member",
     id: "812735197",
     contribution: "Team Member",
     initials: "RK",
     color: "#8b5cf6",
-    links: {},
+    links: {
+      linkedin: "https://www.linkedin.com/in/rawan-elkhatib-777777777777777777/", 
+      email: "rawa.elkhatib.glala@gmail.com" },
   },
   {
     name: "Shahd Lotfy",
@@ -70,7 +72,8 @@ const teamMembers = [
     initials: "SL",
     color: "#06b6d4",
     links: { 
-      linkedin: "https://www.linkedin.com/in/shahd-lotfy-473a89378/"
+      linkedin: "https://www.linkedin.com/in/shahd-lotfy-473a89378/",
+      email: "shahdlotfyy@gmail.com",
     },
   },
 ];
