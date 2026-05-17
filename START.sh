@@ -1,0 +1,25 @@
+#!/bin/bash
+# 🚀 سكريبت تشغيل المشروع
+
+echo "┌─────────────────────────────────────────────────────────┐"
+echo "│  🚀 Srvixo SA - 3D System Analysis Presentation         │"
+echo "│                                                         │"
+echo "│  قم بتشغيل الأوامر التالية:                            │"
+echo "│                                                         │"
+echo "│  1️⃣  npm install                                       │"
+echo "│     (تثبيت المتطلبات - يحتاج مرة واحدة فقط)          │"
+echo "│                                                         │"
+echo "│  2️⃣  npm run dev                                       │"
+echo "│     (تشغيل الموقع على localhost:3000)                │"
+echo "│                                                         │"
+echo "│  3️⃣  افتح المتصفح على: http://localhost:3000          │"
+echo "│                                                         │"
+echo "└─────────────────────────────────────────────────────────┘"
+
+echo ""
+echo "📋 الملفات الموصى بقراءتها:"
+echo "   • QUICK_START.md - دليل البدء السريع"
+echo "   • FINAL_SUMMARY.md - الملخص الشامل"
+echo "   • DETAILED_CHANGES.md - التفاصيل الكاملة"
+echo ""
+echo "✨ استمتع بالموقع الجديد!"
