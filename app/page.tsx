@@ -8,6 +8,7 @@ import Hero from "./sections/Hero";
 import TableOfContents from "./sections/TableOfContents";
 import Overview from "./sections/Overview";
 import Diagrams from "./sections/Diagrams";
+import Financial from "./sections/Financial";  // ← استيراد Financial
 import SDLC from "./sections/SDLC";
 import UseCases from "./sections/UseCases";
 import Team from "./sections/Team";
@@ -38,6 +39,7 @@ export default function Home() {
         <TableOfContents />
         <Overview />
         <Diagrams />
+        <Financial />      {/* ← Financial بعد Diagrams علطول */}
         <SDLC />
         <UseCases />
         <Team />

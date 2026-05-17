@@ -47,8 +47,9 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-6 w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left Content */}
-          <div ref={textRef} className="relative z-10">
+          
+          {/* Left Side - Content (Text) */}
+          <div ref={textRef} className="relative z-10 order-1 lg:order-1">
             {/* Badge */}
             <div className="reveal inline-flex items-center gap-2 px-4 py-2 rounded-full border border-glass-border bg-glass mb-8 hover:border-accent/30 transition-colors">
               <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
@@ -140,24 +141,13 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right - 3D Worker */}
-          <div className="relative h-screen flex items-center justify-center">
-            <div className="absolute top-1/3 left-0 right-0">
+          {/* Right Side - 3D Worker (Moved to Right) */}
+          <div className="relative order-2 lg:order-2 flex justify-center items-center">
+            <div className="w-full h-[500px] md:h-[600px]">
               <Worker3D />
-
-              {/* Decorative elements */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full border border-accent/5 pointer-events-none animate-pulse-glow" />
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] rounded-full border border-accent/10 pointer-events-none animate-pulse-glow" style={{ animationDelay: "0.5s" }} />
-
-              {/* Floating labels */}
-              <div className="absolute top-10 right-10 glass-card px-3 py-2 text-xs text-accent animate-float">
-                Interactive 3D
-              </div>
-              <div className="absolute bottom-20 left-10 glass-card px-3 py-2 text-xs text-muted animate-float" style={{ animationDelay: "1s" }}>
-                Move your cursor
-              </div>
             </div>
           </div>
+
         </div>
       </div>
 
