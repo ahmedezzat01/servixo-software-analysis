@@ -137,6 +137,7 @@ function Particles() {
 }
 
 // Connection Lines (representing marketplace network)
+// Connection Lines (representing marketplace network)
 function ConnectionLines() {
   const linesRef = useRef<THREE.Group>(null);
 
@@ -173,20 +174,17 @@ function ConnectionLines() {
       {lines.map((line, i) => {
         const points = [line.start, line.end];
         const geometry = new THREE.BufferGeometry().setFromPoints(points);
-        return (
-          <line key={i} geometry={geometry}>
-            <lineBasicMaterial
-              color="#06b6d4"
-              transparent
-              opacity={0.15}
-            />
-          </line>
-        );
+        const material = new THREE.LineBasicMaterial({ 
+          color: "#06b6d4", 
+          transparent: true, 
+          opacity: 0.15 
+        });
+        const lineObject = new THREE.Line(geometry, material);
+        return <primitive key={i} object={lineObject} />;
       })}
     </group>
   );
 }
-
 // Floating Labels around the core
 function FloatingLabels() {
   const labels = [
