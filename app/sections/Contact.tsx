@@ -126,7 +126,7 @@ export default function Contact() {
                   {[
                     "Ahmed Ezzat",
                     "El-Sayed Helmy",
-                    "Khaled Abou Khalifa",
+                    "Khaled Abukhalifa",
                     "Raneem Eissa",
                     "Rowan El-Khatib",
                     "Shahd Lotfy",
