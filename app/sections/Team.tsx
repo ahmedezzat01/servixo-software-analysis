@@ -30,7 +30,7 @@ const teamMembers = [
     },
   },
   {
-    name: "Khaled Abou Khalifa",
+    name: "Khaled Abukhalifa",
     role: "Member",
     id: "812733076",
     contribution: "Network & CyberSec Enthusiast",

@@ -23,7 +23,7 @@ A premium, immersive 3D web presentation for the **Servixo Service Marketplace S
 - **Team 6**:
   - Ahmed Ezzat (Presentation Lead)
   - El-Sayed Helmy (Team Lead)
-  - Khaled Abou Khalifa (Developer)
+  - Khaled Abukhalifa (Developer)
   - Raneem Eissa (Analyst)
   - Rowan El-Khatib (Designer)
   - Shahd Lotfy (Tester)
