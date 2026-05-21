@@ -47,14 +47,13 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-6 w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          
-          {/* Left Side - Content (Text) */}
-          <div ref={textRef} className="relative z-10 order-1 lg:order-1">
+          {/* Left Content */}
+          <div ref={textRef} className="relative z-10">
             {/* Badge */}
             <div className="reveal inline-flex items-center gap-2 px-4 py-2 rounded-full border border-glass-border bg-glass mb-8 hover:border-accent/30 transition-colors">
               <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
               <span className="text-xs text-muted tracking-wider uppercase">
-                System Analysis Project
+                Software Analysis and Design Project
               </span>
             </div>
 
@@ -67,7 +66,7 @@ export default function Hero() {
                   backgroundImage: "linear-gradient(135deg, #06b6d4, #22d3ee, #8b5cf6)",
                 }}
               >
-                System Analysis
+                Software Analysis and Design
               </span>
             </h1>
 
@@ -88,19 +87,15 @@ export default function Hero() {
               <div className="flex flex-col gap-2 text-sm">
                 <div className="flex items-center gap-2">
                   <span className="text-muted">Team Leader:</span>
-                  <span className="text-accent font-medium">El-Sayed Helmy</span>
+                  <span className="text-accent font-medium">Durar Ahmad Al-Qarni</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-muted">Presentation:</span>
-                  <span className="text-accent font-medium">Ahmed Ezzat</span>
+                  <span className="text-accent font-medium">Balqees Yahya Alzahrani</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-muted">Supervisor:</span>
-                  <span className="text-white">Dr. Nesma Ibrahim</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-muted">TA:</span>
-                  <span className="text-white">Eng. Menna El-Zawawy</span>
+                  <span className="text-white">Dr. Youmna Ibrahim</span>
                 </div>
               </div>
             </div>
@@ -141,13 +136,24 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right Side - 3D Worker (Moved to Right) */}
-          <div className="relative order-2 lg:order-2 flex justify-center items-center">
-            <div className="w-full h-[500px] md:h-[600px]">
+          {/* Right - 3D Worker */}
+          <div className="relative h-screen flex items-center justify-center">
+            <div className="absolute top-1/3 left-0 right-0">
               <Worker3D />
+
+              {/* Decorative elements */}
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full border border-accent/5 pointer-events-none animate-pulse-glow" />
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] rounded-full border border-accent/10 pointer-events-none animate-pulse-glow" style={{ animationDelay: "0.5s" }} />
+
+              {/* Floating labels */}
+              <div className="absolute top-10 right-10 glass-card px-3 py-2 text-xs text-accent animate-float">
+                Interactive 3D
+              </div>
+              <div className="absolute bottom-20 left-10 glass-card px-3 py-2 text-xs text-muted animate-float" style={{ animationDelay: "1s" }}>
+                Move your cursor
+              </div>
             </div>
           </div>
-
         </div>
       </div>
 

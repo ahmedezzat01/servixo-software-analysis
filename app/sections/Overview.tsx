@@ -43,14 +43,13 @@ const features = [
 
 const metadata = [
   { label: "System", value: "Servixo — Service Marketplace", icon: null },
-  { label: "Course", value: "System Analysis", icon: GraduationCap },
-  { label: "Supervisor", value: "Dr. Nesma Ibrahim", icon: UserCheck },
-  { label: "TA", value: "Eng. Menna El-Zawawy", icon: UserCheck },
-  { label: "Team Leader", value: "El-Sayed Helmy", icon: Crown },
-  { label: "Presentation", value: "Ahmed Ezzat", icon: Presentation },
+  { label: "Course", value: "Software Analysis and Design", icon: GraduationCap },
+  { label: "Supervisor", value: "Dr. Youmna Ibrahim", icon: UserCheck },
+  { label: "Team Leader", value: "Durar Ahmad Al-Qarni", icon: Crown },
+  { label: "Presentation", value: "Balqees Yahya Alzahrani", icon: Presentation },
   {
     label: "Team",
-    value: "Ahmed Ezzat, El-Sayed Helmy, Khaled Abukhalifa, Raneem Eissa, Rawan El-Khatib, Shahd Lotfy",
+    value: "Durar Ahmad Al-Qarni, Balqees Yahya Alzahrani, Rawan Saleh Alghamdi, Rimas Abdulrahman Almuntashiri, Tala Nader Alghamdi",
     icon: Users,
   },
   { label: "Year", value: "2025-2026", icon: Calendar },
@@ -107,7 +106,7 @@ export default function Overview() {
             Project Overview
           </span>
           <h2 className="reveal text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter">
-            System <span className="text-accent">Overview</span>
+            Software <span className="text-accent">Overview</span>
           </h2>
           <p className="reveal text-muted mt-4 max-w-2xl mx-auto">
             A comprehensive solution digitizing the informal home service market

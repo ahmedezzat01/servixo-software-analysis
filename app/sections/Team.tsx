@@ -1,80 +1,38 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { Github, Linkedin, Mail, Crown, Presentation, User } from "lucide-react";
+import { User } from "lucide-react";
 
 const teamMembers = [
   {
-    name: "Ahmed Ezzat",
-    role: "Presentation Lead",
-    id: "812724087",
-    contribution: "Penetration Tester",
-    initials: "AE",
-    color: "#3b82f6",
-    links: { 
-      github: "https://github.com/ahmedezzat01", 
-      linkedin: "https://www.linkedin.com/in/ahmed-ezzat01/", 
-      email: "ahmednabhan854@gmail.com" 
-    },
+    name: "Durar Ahmad Al-Qarni",
+    id: "446031623",
+    initials: "DA",
+    color: "#f97316",
   },
   {
-    name: "El-Sayed Helmy",
-    role: "Team Leader",
-    id: "812705402",
-    contribution: "Mobile App Developer",
-    initials: "EH",
-    color: "#22c55e",
-    links: {  
-      linkedin: "https://www.linkedin.com/in/sayedhelmey19/", 
-      email: "elsayed.helmey198@gmail.com" 
-    },
+    name: "Balqees Yahya Alzahrani",
+    id: "446001384",
+    initials: "BY",
+    color: "#a855f7",
   },
   {
-    name: "Khaled Abukhalifa",
-    role: "Member",
-    id: "812733076",
-    contribution: "Network & CyberSec Enthusiast",
-    initials: "KA",
-    color: "#f59e0b",
-    links: { 
-      linkedin: "https://www.linkedin.com/in/khaled-abukhalifa/", 
-      email: "khaled2014.com@gmail.com" 
-    },
+    name: "Rawan Saleh Alghamdi",
+    id: "446026943",
+    initials: "RS",
+    color: "#ef4444",
   },
   {
-    name: "Raneem Eissa",
-    role: "Member",
-    id: "812708230",
-    contribution: "UI & UX Designer",
-    initials: "RE",
-    color: "#ec4899",
-    links: {
-      linkedin: "https://www.linkedin.com/in/ranim-eissa-web-developer/", 
-      email: "rneemeissa@gmail.com" 
-    },
+    name: "Rimas Abdulrahman Almuntashiri",
+    id: "446005376",
+    initials: "RA",
+    color: "#14b8a6",
   },
   {
-    name: "Rawan El-Khatib",
-    role: "Member",
-    id: "812735197",
-    contribution: "Team Member",
-    initials: "RK",
-    color: "#8b5cf6",
-    links: {
-      linkedin: "https://www.linkedin.com/in/rawan-elkhatib-777777777777777777/", 
-      email: "rawa.elkhatib.glala@gmail.com" },
-  },
-  {
-    name: "Shahd Lotfy",
-    role: "Member",
-    id: "812710250",
-    contribution: "Team Member",
-    initials: "SL",
-    color: "#06b6d4",
-    links: { 
-      linkedin: "https://www.linkedin.com/in/shahd-lotfy-473a89378/",
-      email: "shahdlotfyy@gmail.com",
-    },
+    name: "Tala Nader Alghamdi",
+    id: "4466016482",
+    initials: "TA",
+    color: "#eab308",
   },
 ];
 
@@ -113,7 +71,7 @@ export default function Team() {
               marginBottom: "16px"
             }}
           >
-            The People Behind
+            Software Analysis and Design
           </span>
           <h2 
             className="reveal"
@@ -135,7 +93,7 @@ export default function Team() {
               margin: "16px auto 0"
             }}
           >
-            Team 6 — System Analysis Project 2025-2026
+            Team Members — Software Analysis and Design Project 2025-2026
           </p>
         </div>
 
@@ -192,58 +150,22 @@ export default function Team() {
                 {member.initials}
               </div>
 
-              {/* Role Badge */}
-              {member.role === "Team Leader" && (
-                <div style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "4px",
-                  padding: "4px 12px",
-                  borderRadius: "9999px",
-                  background: "rgba(234, 179, 8, 0.1)",
-                  border: "1px solid rgba(234, 179, 8, 0.2)",
-                  color: "#eab308",
-                  fontSize: "12px",
-                  marginBottom: "8px"
-                }}>
-                  <Crown size={10} />
-                  <span>Team Leader</span>
-                </div>
-              )}
-              {member.role === "Presentation Lead" && (
-                <div style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "4px",
-                  padding: "4px 12px",
-                  borderRadius: "9999px",
-                  background: "rgba(59, 130, 246, 0.1)",
-                  border: "1px solid rgba(59, 130, 246, 0.2)",
-                  color: "#3b82f6",
-                  fontSize: "12px",
-                  marginBottom: "8px"
-                }}>
-                  <Presentation size={10} />
-                  <span>Presentation Lead</span>
-                </div>
-              )}
-              {member.role === "Member" && (
-                <div style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "4px",
-                  padding: "4px 12px",
-                  borderRadius: "9999px",
-                  background: "rgba(107, 114, 128, 0.1)",
-                  border: "1px solid rgba(107, 114, 128, 0.2)",
-                  color: "#9ca3af",
-                  fontSize: "12px",
-                  marginBottom: "8px"
-                }}>
-                  <User size={10} />
-                  <span>Member</span>
-                </div>
-              )}
+              {/* Role Badge - Member */}
+              <div style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "4px",
+                padding: "4px 12px",
+                borderRadius: "9999px",
+                background: "rgba(107, 114, 128, 0.1)",
+                border: "1px solid rgba(107, 114, 128, 0.2)",
+                color: "#9ca3af",
+                fontSize: "12px",
+                marginBottom: "8px"
+              }}>
+                <User size={10} />
+                <span>Member</span>
+              </div>
 
               {/* Info */}
               <h3 style={{ fontWeight: "600", fontSize: "18px", marginBottom: "4px" }}>
@@ -258,117 +180,11 @@ export default function Team() {
               }}>
                 ID: {member.id}
               </span>
-              <span
-                style={{
-                  display: "inline-block",
-                  padding: "4px 12px",
-                  borderRadius: "9999px",
-                  fontSize: "12px",
-                  backgroundColor: `${member.color}15`,
-                  color: member.color,
-                  marginBottom: "8px"
-                }}
-              >
-                {member.contribution}
-              </span>
-
-              {/* Social Links */}
-              <div style={{ display: "flex", justifyContent: "center", gap: "12px", marginTop: "16px" }}>
-                {member.links?.github && (
-                  <a
-                    href={member.links.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                      width: "32px",
-                      height: "32px",
-                      borderRadius: "8px",
-                      border: "1px solid rgba(255, 255, 255, 0.1)",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      transition: "all 0.3s ease",
-                      textDecoration: "none"
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.borderColor = "rgba(6, 182, 212, 0.5)";
-                      e.currentTarget.style.background = "rgba(6, 182, 212, 0.05)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.borderColor = "rgba(255, 255, 255, 0.1)";
-                      e.currentTarget.style.background = "transparent";
-                    }}
-                  >
-                    <Github size={14} style={{ color: "#a1a1aa" }} />
-                  </a>
-                )}
-                {member.links?.linkedin && (
-                  <a
-                    href={member.links.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                      width: "32px",
-                      height: "32px",
-                      borderRadius: "8px",
-                      border: "1px solid rgba(255, 255, 255, 0.1)",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      transition: "all 0.3s ease",
-                      textDecoration: "none"
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.borderColor = "rgba(6, 182, 212, 0.5)";
-                      e.currentTarget.style.background = "rgba(6, 182, 212, 0.05)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.borderColor = "rgba(255, 255, 255, 0.1)";
-                      e.currentTarget.style.background = "transparent";
-                    }}
-                  >
-                    <Linkedin size={14} style={{ color: "#a1a1aa" }} />
-                  </a>
-                )}
-                {member.links?.email && (
-                  <a
-                    href={`mailto:${member.links.email}`}
-                    style={{
-                      width: "32px",
-                      height: "32px",
-                      borderRadius: "8px",
-                      border: "1px solid rgba(255, 255, 255, 0.1)",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      transition: "all 0.3s ease",
-                      textDecoration: "none"
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.borderColor = "rgba(6, 182, 212, 0.5)";
-                      e.currentTarget.style.background = "rgba(6, 182, 212, 0.05)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.borderColor = "rgba(255, 255, 255, 0.1)";
-                      e.currentTarget.style.background = "transparent";
-                    }}
-                  >
-                    <Mail size={14} style={{ color: "#a1a1aa" }} />
-                  </a>
-                )}
-              </div>
-
-              {/* No links placeholder */}
-              {(!member.links?.github && !member.links?.linkedin && !member.links?.email) && (
-                <p style={{ fontSize: "12px", color: "#a1a1aa", marginTop: "12px", opacity: 0.5 }}>
-                  Links coming soon
-                </p>
-              )}
             </div>
           ))}
         </div>
 
-        {/* Supervisors */}
+        {/* Supervisor */}
         <div 
           className="reveal"
           style={{
@@ -380,10 +196,18 @@ export default function Team() {
             textAlign: "center"
           }}
         >
-          <h3 style={{ fontSize: "12px", color: "#a1a1aa", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: "24px" }}>
-            Under Supervision
+          <h3 style={{ fontSize: "14px", color: "#06b6d4", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: "8px" }}>
+            Software Analysis and Design
           </h3>
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "16px" }}>
+          <p style={{ fontSize: "12px", color: "#a1a1aa", marginBottom: "24px" }}>
+            Course Information
+          </p>
+          
+          <p style={{ fontSize: "13px", color: "#f59e0b", marginBottom: "16px", letterSpacing: "0.05em" }}>
+            Under Supervision of
+          </p>
+          
+          <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "8px" }}>
               <div style={{
                 width: "56px",
@@ -395,30 +219,11 @@ export default function Team() {
                 alignItems: "center",
                 justifyContent: "center"
               }}>
-                <span style={{ color: "#06b6d4", fontWeight: "700" }}>NI</span>
+                <span style={{ color: "#06b6d4", fontWeight: "700" }}>YI</span>
               </div>
               <div style={{ textAlign: "center" }}>
-                <h4 style={{ fontWeight: "600" }}>Dr. Nesma Ibrahim</h4>
-                <p style={{ fontSize: "14px", color: "#a1a1aa" }}>Course Supervisor</p>
-              </div>
-            </div>
-
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "8px" }}>
-              <div style={{
-                width: "56px",
-                height: "56px",
-                borderRadius: "12px",
-                background: "rgba(6, 182, 212, 0.1)",
-                border: "1px solid rgba(6, 182, 212, 0.2)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center"
-              }}>
-                <span style={{ color: "#06b6d4", fontWeight: "700" }}>MZ</span>
-              </div>
-              <div style={{ textAlign: "center" }}>
-                <h4 style={{ fontWeight: "600" }}>Eng. Menna El-Zawawy</h4>
-                <p style={{ fontSize: "14px", color: "#a1a1aa" }}>Teaching Assistant</p>
+                <h4 style={{ fontWeight: "600" }}>Dr. Youmna Ibrahim</h4>
+                <p style={{ fontSize: "14px", color: "#a1a1aa" }}>Course Instructor</p>
               </div>
             </div>
           </div>

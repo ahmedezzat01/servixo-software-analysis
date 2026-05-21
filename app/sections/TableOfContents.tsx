@@ -7,7 +7,7 @@ const tocItems = [
   {
     id: "overview",
     title: "Overview",
-    description: "System analysis and project metadata",
+    description: "Software Analysis and Design and project metadata",
     icon: FileText,
     color: "from-blue-500 to-blue-600",
   },
@@ -123,7 +123,7 @@ export default function TableOfContents() {
           <div className="relative">
             <h3 className="text-lg font-semibold mb-3">📋 Project Overview</h3>
             <p className="text-muted text-sm leading-relaxed">
-              Servixo is a comprehensive system analysis project documenting a service marketplace 
+              Servixo is a comprehensive Software Analysis and Design project documenting a service marketplace 
               platform. This interactive guide helps you navigate through all project components including 
               system diagrams (DFD, Use Cases, Activity flows), SDLC documentation, team information, and 
               feasibility studies. Click on any section above to jump directly to that part of the documentation.

@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "../styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "Srvixo SA — System Analysis Project",
+  title: "Srvixo SA — Software Analysis and Design Project",
   description:
-    "Service Marketplace System Analysis — A centralized platform connecting clients with skilled workers. System Analysis Project 2025-2026.",
+    "Service Marketplace Software Analysis and Design — A centralized platform connecting clients with skilled workers. Software Analysis and Design Project 2025-2026.",
   keywords: [
     "Srvixo",
     "Service Marketplace",
-    "System Analysis",
+    "Software Analysis and Design",
     "Software Engineering",
     "Use Cases",
     "SDLC",

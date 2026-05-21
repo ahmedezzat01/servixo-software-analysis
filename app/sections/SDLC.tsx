@@ -29,7 +29,7 @@ const phases = [
     title: "Analysis",
     period: "Week 3-4",
     deliverables: [
-      "Current system analysis",
+      "Current Software Analysis and Design",
       "Problem identification",
       "Functional requirements (13 use cases)",
       "Non-functional requirements",

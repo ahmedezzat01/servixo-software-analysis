@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from "react";
 import {
   GraduationCap,
-  UserCheck,
   Send,
   ArrowUp,
   Crown,
@@ -76,20 +75,9 @@ export default function Contact() {
                     <GraduationCap size={20} className="text-accent" />
                   </div>
                   <div>
-                    <h4 className="font-medium">Dr. Nesma Ibrahim</h4>
+                    <h4 className="font-medium">Dr. Youmna Ibrahim</h4>
                     <p className="text-sm text-muted">Course Supervisor</p>
-                    <p className="text-sm text-muted mt-1">System Analysis Course</p>
-                  </div>
-                </div>
-
-                {/* TA */}
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center shrink-0">
-                    <UserCheck size={20} className="text-accent" />
-                  </div>
-                  <div>
-                    <h4 className="font-medium">Eng. Menna El-Zawawy</h4>
-                    <p className="text-sm text-muted">Teaching Assistant</p>
+                    <p className="text-sm text-muted mt-1">Software Analysis and Design Course</p>
                   </div>
                 </div>
 
@@ -103,7 +91,7 @@ export default function Contact() {
                     <Crown size={20} className="text-yellow-400" />
                   </div>
                   <div>
-                    <h4 className="font-medium">El-Sayed Helmy</h4>
+                    <h4 className="font-medium">Durar Ahmad Al-Qarni</h4>
                     <p className="text-sm text-muted">Team Leader</p>
                   </div>
                 </div>
@@ -113,7 +101,7 @@ export default function Contact() {
                     <Presentation size={20} className="text-blue-400" />
                   </div>
                   <div>
-                    <h4 className="font-medium">Ahmed Ezzat</h4>
+                    <h4 className="font-medium">Balqees Yahya Alzahrani</h4>
                     <p className="text-sm text-muted">Presentation Lead</p>
                   </div>
                 </div>
@@ -121,15 +109,14 @@ export default function Contact() {
                 <div className="h-px bg-glass-border my-6" />
 
                 {/* All Members */}
-                <h3 className="text-lg font-semibold mb-4">Team 6 Members</h3>
+                <h3 className="text-lg font-semibold mb-4">Team Members</h3>
                 <div className="grid grid-cols-2 gap-2">
                   {[
-                    "Ahmed Ezzat",
-                    "El-Sayed Helmy",
-                    "Khaled Abukhalifa",
-                    "Raneem Eissa",
-                    "Rawan El-Khatib",
-                    "Shahd Lotfy",
+                    "Durar Ahmad Al-Qarni",
+                    "Balqees Yahya Alzahrani",
+                    "Rawan Saleh Alghamdi",
+                    "Rimas Abdulrahman Almuntashiri",
+                    "Tala Nader Alghamdi",
                   ].map((name, i) => (
                     <span key={i} className="text-sm text-muted">
                       {name}
@@ -262,10 +249,10 @@ export default function Contact() {
 
           <div className="text-center mt-8 pb-8">
             <p className="text-xs text-muted">
-              © 2025-2026 Servixo Project — Team 6 — System Analysis
+              © 2025-2026 Servixo Project — Software Analysis and Design
             </p>
             <p className="text-xs text-muted mt-1">
-              Dr. Nesma Ibrahim — Eng. Menna El-Zawawy
+              Dr. Youmna Ibrahim
             </p>
           </div>
         </div>

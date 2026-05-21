@@ -43,7 +43,7 @@ export default function Navbar() {
           </div>
           <div>
             <span className="font-bold text-lg tracking-tight">Srvixo SA</span>
-            <span className="text-muted text-xs ml-2 hidden sm:inline">System Analysis</span>
+            <span className="text-muted text-xs ml-2 hidden sm:inline">Software Analysis and Design</span>
           </div>
         </div>
 

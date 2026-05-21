@@ -38,7 +38,7 @@ export default function Requirements() {
         {/* Header */}
         <div style={{ textAlign: "center", marginBottom: "80px" }}>
           <span className="reveal" style={{ display: "inline-block", fontSize: "12px", color: "#06b6d4", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "16px" }}>
-            System Analysis
+            Software Analysis and Design
           </span>
           <h2 className="reveal" style={{ fontSize: "clamp(2.5rem, 5vw, 3.5rem)", fontWeight: "800", letterSpacing: "-0.02em", lineHeight: "1" }}>
             Requirements <span style={{ color: "#06b6d4" }}>Specification</span>

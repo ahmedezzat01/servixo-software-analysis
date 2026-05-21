@@ -185,7 +185,7 @@ export default function Financial() {
           <div style={{ overflowX: "auto", marginBottom: "24px" }}>
             <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "14px" }}>
               <tbody>
-                <tr><td style={{ padding: "8px" }}>System analysis and design</td><td style={{ textAlign: "right" }}>80,000</td></tr>
+                <tr><td style={{ padding: "8px" }}>Software Analysis and Design and design</td><td style={{ textAlign: "right" }}>80,000</td></tr>
                 <tr><td style={{ padding: "8px" }}>Website & mobile app development</td><td style={{ textAlign: "right" }}>400,000</td></tr>
                 <tr><td style={{ padding: "8px" }}>Database & API integration</td><td style={{ textAlign: "right" }}>200,000</td></tr>
                 <tr><td style={{ padding: "8px" }}>Security infrastructure</td><td style={{ textAlign: "right" }}>60,000</td></tr>
